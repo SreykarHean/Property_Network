@@ -33,6 +33,7 @@ const Buyer = sequelize.define('Buyer', {
 }, {
     tableName: 'buyers',
     timestamps: true,
+    underscored: true,
 }
 )
 module.exports = Buyer

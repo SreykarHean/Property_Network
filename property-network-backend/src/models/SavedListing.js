@@ -22,6 +22,7 @@ const SavedListing = sequelize.define('SavedListing', {
 },{
     tableName: 'saved_listing',
     timestamps: true,
+    underscored: true,
 }
 )
 

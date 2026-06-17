@@ -26,6 +26,7 @@ const QaAnswer = sequelize.define('QaAnswer', {
 },{
     tableName: 'qa_answers',
     timestamps: true,
+    underscored: true,
 }
 )
 

@@ -33,6 +33,7 @@ const Agent = sequelize.define('Agent', {
 }, {
     tableName: 'agents',
     timestamps: true,
+    underscored: true,
 }
 )
 

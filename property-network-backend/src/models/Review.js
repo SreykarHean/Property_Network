@@ -26,6 +26,7 @@ const Review = sequelize.define('Review', {
 }, {
     tableName: 'reviews',
     timestamps: true,
+    underscored: true,
 }
 )
 

@@ -29,6 +29,7 @@ const Appointment = sequelize.define('Appointment', {
 }, {
   tableName: 'appointments',
   timestamps: true,
+  underscored: true,
 })
 
 module.exports = Appointment

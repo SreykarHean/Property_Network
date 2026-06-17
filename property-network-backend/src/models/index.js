@@ -61,6 +61,7 @@ Listing.hasMany(QaQuestion, { foreignKey: 'listing_id' })
 QaAnswer.belongsTo(QaQuestion, { foreignKey: 'question_id' })
 QaAnswer.belongsTo(Agent, { foreignKey: 'agent_id' })
 QaQuestion.hasMany(QaAnswer, { foreignKey: 'question_id' })
+Agent.hasMany(QaAnswer, { foreignKey: 'agent_id' }) 
 
 // Messages
 Message.belongsTo(Buyer, { foreignKey: 'buyer_id' })

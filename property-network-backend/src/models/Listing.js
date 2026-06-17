@@ -43,6 +43,7 @@ const Listing = sequelize.define('Listing', {
 }, {
   tableName: 'listings',
   timestamps: true,
+  underscored: true,
 })
 
 module.exports = Listing

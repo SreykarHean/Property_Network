@@ -34,6 +34,7 @@ const Report = sequelize.define('Report', {
 },{
     tableName: 'reports',
     timestamps: true,
+    underscored: true,
 }
 )
 

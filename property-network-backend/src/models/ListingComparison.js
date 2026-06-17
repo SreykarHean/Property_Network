@@ -18,6 +18,7 @@ const ListingComparison = sequelize.define('ListingComparison', {
 },{
     tableName: 'listing_comparisons',
     timestamps: true,
+    underscored: true,
 }
 )
 

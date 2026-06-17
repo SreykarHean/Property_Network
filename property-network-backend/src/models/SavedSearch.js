@@ -24,6 +24,7 @@ const SavedSearch = sequelize.define('SavedSearch', {
 },{
     tableName: 'saved_searches',
     timestamps: true,
+    underscored: true,
 }
 )
 
